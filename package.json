@@ -6,22 +6,28 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "immer": "^9.0.6",
     "react": "^17.0.2",
+    "react-dev-utils": "^11.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "tachyons": "^4.12.0",
     "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "react-scripts": "^4.0.3"
+  },
+  "resolutions": {
+    "ansi-regex": "5.0.1",
+    "nth-check": "2.0.1",
+    "set-value": "4.0.1",
+    "immer": "^9.0.6",
+    "ansi-html": "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
